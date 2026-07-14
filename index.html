@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <nav class="navbar">
+    <h2 class="logo">FramesVcapture</h2>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Packages</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- ================= LOADER ================= -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="camera-icon">📸</div>
+
+        <h1>FramesVcapture</h1>
+
+        <p>Capturing Moments, Creating Memories</p>
+
+        <div class="loading-bar">
+
+            <div class="loading-progress"></div>
+
+        </div>
+
+        <span>Loading...</span>
+
+    </div>
+
+</div>
+
+</nav>
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Vikash</h1>
+
+            <h2>Professional Photographer & Visual Storyteller</h2>
+
+            <p>
+                Capturing life's beautiful moments through creative photography, cinematic storytelling, and timeless memories.
+            </p>
+
+            <button id="bookBtn" type="button">Book a Session</button>
+           
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/images/profile.png" alt="Profile">
+
+        </div>
+
+    </section>
+</header>
+
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="assets/images/about.jpeg" alt="About Studio">
+    </div>
+
+    <div class="about-content">
+
+        <h4>About Studio</h4>
+
+        <h2>Creating Beautiful Memories Through Photography</h2>
+
+        <p>
+            We specialize in capturing unforgettable moments through wedding,
+            portrait, event, and lifestyle photography. Every frame tells a
+            story, and our mission is to preserve your most precious memories
+            with creativity and passion.
+        </p>
+
+        <div class="about-details">
+
+            <div class="detail-box">
+                <h3>5+</h3>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="detail-box">
+                <h3>300+</h3>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="detail-box">
+                <h3>1000+</h3>
+                <p>Photos Delivered</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <h4>Our Achievements</h4>
+
+    <h2>Numbers That Speak For Us</h2>
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+            <h1 class="counter" data-target="250">0</h1>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat-box">
+            <h1 class="counter" data-target="520">0</h1>
+            <p>Photos Delivered</p>
+        </div>
+
+        <div class="stat-box">
+            <h1 class="counter" data-target="10">0</h1>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="stat-box">
+            <h1 class="counter" data-target="120">0</h1>
+            <p>Events Covered</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h4>Our Gallery</h4>
+
+    <h2>Featured Photography</h2>
+
+    <p>
+        A collection of our favorite moments captured through creativity,
+        passion, and storytelling.
+    </p>
+
+    <div class="filter-buttons">
+
+    <button class="filter-btn active" data-filter="all">All</button>
+
+    <button class="filter-btn" data-filter="wedding">Wedding</button>
+
+    <button class="filter-btn" data-filter="portrait">Portrait</button>
+
+    <button class="filter-btn" data-filter="event">Events</button>
+
+</div>
+
+    <div class="gallery-grid">
+
+    <div class="gallery-item wedding">
+        <img src="assets/images/gallery1.jpeg" class="gallery-img">
+    </div>
+
+    <div class="gallery-item wedding">
+        <img src="assets/images/gallery2.jpeg" class="gallery-img">
+    </div>
+
+    <div class="gallery-item portrait">
+        <img src="assets/images/gallery3.jpeg" class="gallery-img">
+    </div>
+
+    <div class="gallery-item portrait">
+        <img src="assets/images/gallery4.jpeg" class="gallery-img">
+    </div>
+
+    <div class="gallery-item event">
+        <img src="assets/images/gallery5.jpeg" class="gallery-img">
+    </div>
+
+    <div class="gallery-item event">
+        <img src="assets/images/gallery6.jpeg" class="gallery-img">
+    </div>
+
+</div>
+
+</section>
+
+<section class="pricing" id="pricing">
+
+    <h4>Pricing Plans</h4>
+
+    <h2>Choose Your Perfect Package</h2>
+
+    <p>
+        We offer flexible photography packages to suit every occasion and budget.
+    </p>
+
+    <div class="pricing-container">
+
+        <div class="price-card">
+
+            <h3>Basic</h3>
+
+            <h1>₹4,999</h1>
+
+            <ul>
+                <li>✔ 2 Hours Shoot</li>
+                <li>✔ 50 Edited Photos</li>
+                <li>✔ Online Gallery</li>
+                <li>✔ HD Images</li>
+            </ul>
+
+            <button>Book Now</button>
+
+        </div>
+
+        <div class="price-card popular">
+
+            <span>Most Popular</span>
+
+            <h3>Premium</h3>
+
+            <h1>₹9,999</h1>
+
+            <ul>
+                <li>✔ Full Day Coverage</li>
+                <li>✔ 250 Edited Photos</li>
+                <li>✔ Drone Photography</li>
+                <li>✔ Premium Album</li>
+                <li>✔ Online Gallery</li>
+            </ul>
+
+            <button>Book Now</button>
+
+        </div>
+
+        <div class="price-card">
+
+            <h3>Luxury</h3>
+
+            <h1>₹19,999</h1>
+
+            <ul>
+                <li>✔ 2 Day Coverage</li>
+                <li>✔ Unlimited Photos</li>
+                <li>✔ Drone + Cinematic Video</li>
+                <li>✔ Premium Album</li>
+                <li>✔ Reels Editing</li>
+            </ul>
+
+            <button>Book Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="testimonials" id="testimonials">
+
+    <h4>Testimonials</h4>
+
+    <h2>What Our Clients Say</h2>
+
+    <p>We love creating unforgettable memories for our clients.</p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <img src="assets/images/client1.jpeg" alt="">
+            <h3>Arun Kumar</h3>
+            <h5>Wedding Client</h5>
+            <p>
+                "Amazing photography and cinematic shots. Every moment was captured beautifully!"
+            </p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="assets/images/client2.jpeg" alt="">
+            <h3>Priya S</h3>
+            <h5>Portrait Client</h5>
+            <p>
+                "Professional team, friendly service and stunning edits. Highly recommended."
+            </p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="assets/images/client3.jpeg" alt="">
+            <h3>Rahul & Sneha</h3>
+            <h5>Wedding Couple</h5>
+            <p>
+                "Our wedding album looks incredible. Thank you for making our day unforgettable."
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <h4>Contact Us</h4>
+
+    <h2>Book Your Dream Photoshoot</h2>
+
+    <p>Fill in the details below and we'll contact you shortly.</p>
+
+    <form id="bookingForm">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+
+    <input type="email" id="email" placeholder="Email Address" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <select id="package" required>
+        <option value="">Select Package</option>
+        <option>Basic</option>
+        <option>Premium</option>
+        <option>Luxury</option>
+    </select>
+
+    <select id="event" required>
+        <option value="">Photography Type</option>
+        <option>Wedding</option>
+        <option>Pre Wedding</option>
+        <option>Birthday</option>
+        <option>Baby Shoot</option>
+        <option>Corporate</option>
+        <option>Portrait</option>
+    </select>
+
+    <input type="date" id="date" required>
+
+    <textarea
+        id="message"
+        placeholder="Tell us about your event..."></textarea>
+
+    <button type="submit">
+        Book My Session
+    </button>
+
+</form>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h2>FramesVcapture</h2>
+
+            <p>
+                Capturing life's most precious moments with creativity,
+                passion, and professionalism.
+            </p>
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h3>Contact</h3>
+
+            <p>📞 +91 8015978715</p>
+
+            <p>📧 framesvcaptureofficial@email.com</p>
+
+            <p>📍 Vellore, Tamil Nadu</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Photography Portfolio. All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- Booking Success Popup -->
+
+<div id="successModal" class="modal">
+
+    <div class="modal-content">
+
+        <div class="checkmark">✅</div>
+
+        <h2>Booking Successful!</h2>
+
+        <p>
+            Thank you for choosing
+            <strong>FramesVcapture</strong>.
+        </p>
+
+        <p>
+            We'll contact you within
+            <strong>24 hours.</strong>
+        </p>
+
+        <button id="closeModal">
+            OK
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= IMAGE LIGHTBOX ================= -->
+
+<div id="lightbox">
+
+    <span id="closeLightbox">&times;</span>
+
+    <img id="lightboxImg" src="" alt="Preview Image">
+
+</div>
+
+
+<button id="topBtn" title="Go to top">↑</button>
+<script src="script.js"></script>
+
+</body>
+</html>
