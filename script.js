@@ -54,7 +54,7 @@ bookingForm.addEventListener("submit", async function(event){
 
     try{
 
-        const response = await fetch("http://localhost:5000/booking",{
+        const response = awaitfetch("https://framesvcapture.onrender.com/booking", {
 
             method:"POST",
 
